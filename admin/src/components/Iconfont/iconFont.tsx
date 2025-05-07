@@ -40,7 +40,7 @@ export default defineComponent({
     if (props.scriptUrl) {
       // scriptUrls = [...new Set(scriptUrls.concat(props.scriptUrl))];
       MyIconFont = createFromIconfontCN({
-        scriptUrl: props.scriptUrls,
+        scriptUrl: props.scriptUrl,
       });
     }
 

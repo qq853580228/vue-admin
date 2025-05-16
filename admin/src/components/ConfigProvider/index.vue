@@ -14,6 +14,6 @@
   const { themeConfig, toggleTheme, layoutSetting } = useSetting();
   toggleTheme(layoutSetting.navTheme);
   const theme = computed(() => {
-    return merge({}, layoutSetting.themeConfig, props.theme);
+    return merge({}, layoutSetting, themeConfig, props.theme);
   });
 </script>
